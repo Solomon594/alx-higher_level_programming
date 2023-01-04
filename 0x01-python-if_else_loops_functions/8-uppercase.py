@@ -19,4 +19,3 @@ def uppercase(str):
         print("{}".format(c), end="")
 
     print("")
-

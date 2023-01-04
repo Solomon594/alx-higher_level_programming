@@ -17,4 +17,3 @@ def islower(c):
     else:
 
         return False
-

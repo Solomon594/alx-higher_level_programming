@@ -6,6 +6,7 @@
  * @p: Python Object
  * Return: no return
  */
+
 void print_python_bytes(PyObject *p)
 {
 	char *string;
@@ -32,6 +33,7 @@ void print_python_bytes(PyObject *p)
 			printf(" %02x", 256 + string[i]);
 	printf("\n");
 }
+
 /**
  * print_python_list - Prints list information
  * @p: Python Object
@@ -54,4 +56,4 @@ void print_python_list(PyObject *p)
 		if (PyBytes_Check(obj))
 			print_python_bytes(obj);
 	}
-
+}
